@@ -1,0 +1,11 @@
+title 0.6. Uusi muistiinpano
+
+note over selain:
+selain lisää uuden muistiinpanon muistiinpanojen listalle 
+ja piirtää listan uudelleen,
+jonka jälkeen uusi muistiinpano lähetetään myös palvelimelle.
+end note
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin-->selain: Status 201: Created
+
